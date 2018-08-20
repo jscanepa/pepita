@@ -1,0 +1,22 @@
+import pepita.*
+
+
+program abc {
+	
+	console.println("energia inicial: ")
+	console.println(pepita.energia())
+	console.println("volar: ")
+	pepita.volar(10)
+	console.println(pepita.energia())
+	console.println("comer: ")
+	pepita.comer(alpiste)
+	console.println("energiaactual ")
+	console.println(pepita.energia())
+	pepita.comer(manzana)
+	console.println("energiaactual ")
+	console.println(pepita.energia())
+	console.println("volar: ")
+	pepita.volar(10)
+	console.println(pepita.energia())
+
+}
